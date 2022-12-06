@@ -27,3 +27,7 @@ Love my family, love the sun, the sea and warmth. Like to help people. I plan my
 + assembly, installation, configuration, repair of computers
 + installation and configuration of Windows family operating systems
 + VMware virtualization, vsphere
+-----
+### Languages
++ English A2;
++ Russian.
