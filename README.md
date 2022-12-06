@@ -1,2 +1,2 @@
 # rsschool  
-My CV: https://gfredex.github.io/rsschool-cv/cv
+[Link to my CV](https://gfredex.github.io/rsschool-cv/cv)
