@@ -182,3 +182,21 @@ h3 {
     });
 ``` 
 *** 
+
+## Skills:  
+* HTML5/ CSS3; 
+* JavaScript Basics; 
+* Version Control/Git; 
+* Browser Developer tools; 
+* WebStorm;
+* VSCode; 
+* Figma; 
+* Adobe Photoshop. 
+
+*** 
+
+## Languages  
+* Russian (native); 
+* English (A2). 
+
+*** 
