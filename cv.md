@@ -21,3 +21,19 @@ Love my family, love the sun, the sea and warmth. Like to help people. I plan my
 ### Experience:
 + 2010 - 2025: Republican Unitary Enterprise "Brest center of metrology standardization and certification", system administrator.
 -----
+### Skills:
++ HTML
++ CSS
++ JavaScript
++ TypeScript
++ React
++ WebStorm
++ Figma
++ Adobe Photoshop, Illustrator
++ assembly, installation, configuration, repair of computers
++ installation and configuration of Windows family operating systems
++ VMware virtualization, vsphere
+-----
+### Languages
++ English A2;
++ Russian.
