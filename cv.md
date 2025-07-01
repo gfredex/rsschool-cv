@@ -7,3 +7,10 @@
 + **GitHub:** gfredex
 ### About me:
 Love my family, love the sun, the sea and warmth. Like to help people. I plan my day and try to do everything in time or earlier. Enjoy constantly developing and getting a new skill. I enjoy the result. I like cars and swimming.
+### Education:
++ Brest State Technical University, systems engineering engineer;  
++ courses:
+	+ Innoclas programming-school, Frontend developer 2025;
+    + Educational center "Success", WEB-coder 2019;
+	+ Educational center "Success", WEB-designer 2016.
+-----
