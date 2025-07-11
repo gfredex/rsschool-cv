@@ -35,3 +35,69 @@ h2 {
     display: flex;
     height: 385px;
 }
+
+.navigation,
+.contact,
+.about_me,
+.education,
+.experience,
+.skills,
+.example_code,
+.projects,
+.languages {
+    display: flex;
+    border-bottom: 3px solid #333333;
+}
+
+.left_column,
+.left_column_head {
+    width: 355px;
+    min-width: 355px;
+    background-color: #333333;
+    padding: 10px 30px 10px 50px;
+    text-align: right;
+}
+
+.right_column {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.right_column.projects {
+    width: 100%;
+}
+
+.wrap__header {
+    position: relative;
+    margin: 50px 0 50px -310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #99c7c7;
+    border: 10px solid #fff;
+    gap: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    align-items: center;
+    /* margin: o auto; */
+    margin: 20px;
+}
+
+.photo img {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.text__header {
+    width: fit-content;
+    margin: 20px;
+}
