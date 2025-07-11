@@ -213,3 +213,41 @@ ol {
     font-weight: bold;
     overflow: hidden;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    color: #fff;
+}
+
+#yearCV {
+    font-size: 24px;
+}
+
+.my-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.schools {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-github {
+    background-color: #eeeeee;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.logo-github,
+.logo-rs_school {
+    height: 60px;
+}
