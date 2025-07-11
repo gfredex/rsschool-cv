@@ -148,3 +148,26 @@ ol {
     padding-left: 10px;
     margin-bottom: 10px;
 }
+
+.skills__items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.name__skill {
+    padding: 7px;
+    width: fit-content;
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    cursor: default;
+}
+
+.name__skill.base:hover {
+    background-color: #f2f557;
+}
+
+.name__skill.normal:hover {
+    background-color: aqua;
+}
