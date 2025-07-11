@@ -128,3 +128,23 @@ ol {
 .item-menu a:hover {
     text-decoration: underline;
 }
+
+.title_contact {
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+}
+
+.courses__list {
+    padding-left: 25px;
+}
+
+.experience__list {
+    list-style-position: outside;
+    margin-left: 15px;
+}
+
+.experience__list>li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
