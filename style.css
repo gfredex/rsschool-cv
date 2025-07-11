@@ -1,5 +1,6 @@
-* {
-    box-sizing: border-box;
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
 }
 
 body {
@@ -7,9 +8,255 @@ body {
     margin: 0 auto;
 }
 
-.header,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+h1 {
+    font-size: 44px;
+    line-height: 54px;
+}
+
+h2 {
+    font-size: 38px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    height: 385px;
+}
+
+.navigation,
 .contact,
-.about,
-.education {
+.about_me,
+.education,
+.experience,
+.skills,
+.example_code,
+.projects,
+.languages {
+    display: flex;
+    border-bottom: 3px solid #333333;
+}
+
+.left_column,
+.left_column_head {
+    width: 355px;
+    min-width: 355px;
+    background-color: #333333;
+    padding: 10px 30px 10px 50px;
+    text-align: right;
+}
+
+.right_column {
+    width: 100%;
+    background-color: #fff;
     padding: 20px;
+}
+
+.right_column.projects {
+    width: 100%;
+}
+
+.wrap__header {
+    position: relative;
+    margin: 50px 0 50px -310px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #99c7c7;
+    border: 10px solid #fff;
+    gap: 20px;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    align-items: center;
+    /* margin: o auto; */
+    margin: 20px;
+}
+
+.photo img {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.text__header {
+    width: fit-content;
+    margin: 20px;
+}
+
+ul,
+ol {
+    list-style-position: inside;
+}
+
+.list-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 10px 10px;
+    transition: all 0.3s;
+}
+
+.item-menu a:hover {
+    text-decoration: underline;
+}
+
+.title_contact {
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+}
+
+.courses__list {
+    padding-left: 25px;
+}
+
+.experience__list {
+    list-style-position: outside;
+    margin-left: 15px;
+}
+
+.experience__list>li {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.skills__items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+}
+
+.name__skill {
+    padding: 7px;
+    width: fit-content;
+    border: 1px solid #3f3f3f;
+    border-radius: 15px;
+    cursor: default;
+}
+
+.name__skill.base:hover {
+    background-color: #f2f557;
+}
+
+.name__skill.normal:hover {
+    background-color: aqua;
+}
+
+.list_projects {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.link_project {
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 7px;
+    transition: all 0.3s
+}
+
+.link_project:hover {
+    background-color: #3f3f3f;
+    color: #fff;
+    overflow: hidden;
+}
+
+.item_project {
+    border: 1px solid #3f3f3f;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.img_project {
+    width: 250px;
+}
+
+.title_project {
+    padding: 10px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.example_code__text {
+    width: 100%;
+    min-width: 100%;
+    background-color: #3f3f3f;
+    color: springgreen;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333333;
+    padding: 20px;
+    color: #fff;
+}
+
+#yearCV {
+    font-size: 24px;
+}
+
+.my-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.schools {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-github {
+    background-color: #eeeeee;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.logo-github,
+.logo-rs_school {
+    height: 60px;
 }
