@@ -28,6 +28,7 @@
     .education,
     .experience,
     .skills,
+    .example_code,
     .projects,
     .languages {
         flex-direction: column;
@@ -73,5 +74,13 @@
     .logo-inno,
     .logo-in {
         height: 40px;
+    }
+
+    .example_code>.right_column {
+        overflow-y: scroll;
+    }
+
+    .example_code__text {
+        width: fit-content;
     }
 }
