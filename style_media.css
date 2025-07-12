@@ -1,0 +1,77 @@
+@media (max-width: 810px) {
+    h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .left_column_head,
+    .right_column_head {
+        display: none;
+    }
+
+    .wrap__header {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 0;
+        padding: 15px;
+        border: none;
+    }
+
+    .navigation,
+    .contact,
+    .about_me,
+    .education,
+    .experience,
+    .skills,
+    .projects,
+    .languages {
+        flex-direction: column;
+        border-bottom: 0;
+    }
+
+    .navigation {
+        margin: 3px 0px;
+    }
+
+    .navigation>.left_column {
+        display: none;
+    }
+
+    .navigation>.right_column {
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .item-menu a {
+        color: #fff;
+    }
+
+    .item-menu a:hover {
+        all: unset;
+    }
+
+    .left_column {
+        width: 100%;
+        min-width: 0;
+        text-align: left;
+        padding: 10px 20px;
+
+    }
+
+    .link_project:hover {
+        all: unset;
+    }
+
+    .logo-github,
+    .logo-rs_school,
+    .logo-inno,
+    .logo-in {
+        height: 40px;
+    }
+}
